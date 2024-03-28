@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home"
+        app:tint="@android:color/white"
+        android:textColor="@android:color/white"/>
+
+    <item
+        android:id="@+id/shorts"
+        android:title="Market"
+        android:icon="@drawable/chart"
+        app:tint="@android:color/white"
+        android:textColor="@android:color/white"/>
+
+    <item
+        android:id="@+id/process"
+        android:title="Process"
+        android:icon="@drawable/planner"
+        app:tint="@android:color/white"
+        android:textColor="@android:color/white"/>
+
+    <item
+        android:id="@+id/subscriptions"
+        android:title="Prediction"
+        android:icon="@drawable/volatility"
+        app:tint="@android:color/white"
+        android:textColor="@color/white" />
+
+    <item
+        android:id="@+id/library"
+        android:title="Accounts"
+        android:icon="@drawable/financial"
+        app:tint="@android:color/white"
+        android:textColor="@android:color/white" />
+
+</menu>

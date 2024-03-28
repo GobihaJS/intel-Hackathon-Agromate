@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9BCF53"
+        tools:context=".home_" >>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/rounded_rectangle"
+            android:padding="16dp"
+            tools:context=".home_" >
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="null"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:translationX="60dp"
+                android:translationY="10dp" />
+            <TextView
+                android:id="@+id/main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="null"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:translationX="260dp"
+                android:translationY="90dp" />
+            <TextView
+                android:id="@+id/pressure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="null"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:translationX="180dp"
+                android:translationY="120dp" />
+            <TextView
+                android:id="@+id/humidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="null"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:translationX="180dp"
+                android:translationY="160dp" />
+            <TextView
+                android:id="@+id/wind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="null"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:translationX="180dp"
+                android:translationY="200dp" />
+            <TextView
+                android:id="@+id/now"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Now"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:translationX="10dp"
+                android:translationY="60dp" />
+            <TextView
+                android:id="@+id/temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00.0"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:textStyle="bold"
+            android:translationX="20dp"
+            android:translationY="110dp" />
+
+            <TextView
+                android:id="@+id/feellike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feels Like 00"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:translationX="10dp"
+                android:translationY="170dp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_rectangle"
+            android:padding="16dp"
+            tools:context=".home_">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top crop on the market"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Corn"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/black"
+                android:textSize="40dp"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="20dp"
+                android:text="^ 15%"
+                android:textColor="#6EF836" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            app:srcCompat="@drawable/home6" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:layout_gravity="top">
+    </FrameLayout>
+
+
+</LinearLayout>
