@@ -72,4 +72,14 @@ Overall, Intel AI Tools plays a crucial role in preparing and analyzing our mark
  7. Global Accessibility                  
  8. Timely Notifications                   
  9. Ease of Use              
-10. Data-Driven Decision-Making                
+10. Data-Driven Decision-Making
+## Work sample
+
+YouTube link: [Watch the video](https://youtu.be/neuU-3mc0CY?si=UJeMM-QMthKpy8z_)
+
+Image Preview: [Image Preview](https://ibb.co/cDJS8bJ)
+
+
+
+
+
